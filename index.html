@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        p {
+            margin: 0 0 10px;
+        }
+        code {
+            background: #eaeaea;
+            border-radius: 4px;
+            padding: 2px 4px;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Introducción a CSS</h1>
+
+        <h2>Definición de CSS</h2>
+        <p>CSS (Cascading Style Sheets) es un lenguaje utilizado para describir la presentación de documentos HTML. Permite controlar el diseño visual, como colores, fuentes, y el posicionamiento de elementos en una página web.</p>
+
+        <h2>Funcionamiento Básico de CSS</h2>
+        <p>CSS funciona aplicando estilos a elementos HTML según las reglas definidas por el autor. Estas reglas se pueden aplicar de manera directa en el archivo HTML, dentro de etiquetas <code>&lt;style&gt;</code>, o en archivos CSS externos.</p>
+
+        <h2>Incluir CSS en un archivo HTML</h2>
+        <ul>
+            <li><strong>Interno:</strong> Dentro de la etiqueta <code>&lt;style&gt;</code> en el <code>&lt;head&gt;</code>.</li>
+            <li><strong>Externo:</strong> Mediante la etiqueta <code>&lt;link&gt;</code> en el <code>&lt;head&gt;</code> para enlazar un archivo <code>.css</code>.</li>
+            <li><strong>En línea:</strong> Directamente en la etiqueta HTML usando el atributo <code>style</code>.</li>
+        </ul>
+
+        <h2>Definición de una regla CSS</h2>
+        <p>Una regla CSS define cómo se debe mostrar un elemento específico en la página. Incluye un selector que apunta al elemento y un bloque de declaración que define los estilos.</p>
+
+        <h2>Elementos de una regla CSS</h2>
+        <ul>
+            <li><strong>Regla:</strong> Conjunto de una o más declaraciones que aplican estilos.</li>
+            <li><strong>Selector:</strong> Parte que define a qué elemento(s) se aplicará la regla.</li>
+            <li><strong>Bloque de declaración:</strong> Contiene las propiedades y valores que definen los estilos.</li>
+            <li><strong>Propiedad:</strong> Característica de diseño que se quiere modificar (ej. <code>color</code>, <code>margen</code>).</li>
+            <li><strong>Valor:</strong> Especifica cómo se debe aplicar la propiedad (ej. <code>rojo</code>, <code>10px</code>).</li>
+        </ul>
+
+        <h2>Medios CSS</h2>
+        <p>Son reglas que aplican estilos según las características del dispositivo, como el ancho de pantalla, usando consultas de medios (<code>media queries</code>).</p>
+
+        <h2>Comentarios CSS</h2>
+        <p>Son notas que no afectan el código y se usan para documentar. Se escriben entre <code>/* comentario */</code>.</p>
+
+        <h2>Sintaxis de la definición de las propiedades CSS</h2>
+        <p>Las propiedades se definen dentro de un bloque de declaración en el formato <code>propiedad: valor;</code> donde "propiedad" es lo que se quiere modificar y "valor" es el cambio aplicado.</p>
+    </div>
+</body>
+</html>
